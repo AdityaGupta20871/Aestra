@@ -18,7 +18,7 @@ const scene = new THREE.Scene()
 const secgeometry = new THREE.TorusGeometry( .6, .1, 64, 1000 );
 const particlesGeometry = new THREE.BufferGeometry();
 const borderParticlesGeometry = new THREE.BufferGeometry();
-const geometry = new THREE.TorusGeometry(0.8,0.1, 14, 300); // Adjust these parameters as needed
+const geometry = new THREE.TorusGeometry(1,0.2, 14, 100); // Adjust these parameters as needed
 
 
 const particlesCnt = 10000;
